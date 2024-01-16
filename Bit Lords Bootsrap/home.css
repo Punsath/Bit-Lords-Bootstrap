@@ -1,0 +1,195 @@
+
+.brand-logo{
+    height: 80px;
+}
+#nav-bar{
+    background-color: #0c0D36;
+    
+}
+.nav-link{
+    color: white!important;
+    font-weight: bold!important;
+}
+
+.carousel-item img {
+    max-height: 400px; 
+    object-fit: cover; 
+}
+
+.btn{
+    background-color: #0c0D36!important;
+    color: orangered!important;
+    border: 2px solid orangered!important;
+    border-radius: 2px!important;
+}
+.btnReg{
+    background-color: #ff581a; 
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+.height{
+height: 45vh;
+}
+
+.search{
+position: relative;
+box-shadow: 0 0 40px rgba(51, 51, 51, .1);   
+}
+
+.search input{
+height: 60px;
+text-indent: 25px;
+border: 2px solid #d6d4d4;
+}
+.searchButton {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+.search input:focus{
+box-shadow: none;
+border: 2px solid #0c0D36;
+}
+
+.search .fa-search{
+position: absolute;
+top: 20px;
+left: 16px;
+}
+
+.text{
+    text-align: center;
+}
+
+.bi{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.courses{
+    height: 70px;
+    background-color: #0c0D36;
+    text-align: center;
+    color: orangered;
+}
+
+#footer{
+    background-color: #0c0D36;
+    color: white;
+    
+}
+.bi-facebook{
+    fill: white; /* Set the fill color to white */
+}
+.bi-twitter{
+    fill: white;
+}
+.bi-instagram{
+    fill: white;
+}
+.footer{
+    background-color: #0c0D36;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 25px; /* Adjust the value as needed to control the corner roundness */
+    overflow: hidden;
+    background-color: #331e1e69; /* Grey background color */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a visual effect */
+  }
+
+  .search .form-control {
+    border: none;
+    border-radius: 25px; /* Same value as the parent to make sure it matches */
+    outline: none;
+    padding: 10px;
+    background-color: transparent; /* Transparent background to blend with the parent */
+    flex: 1; /* This ensures the input takes up the remaining space */
+  }
+
+.search .btn-primary {
+border: none;
+border-radius: 25px; /* Adjust the value as needed to control the button's roundness */
+background-color: #007bff; /* Blue color for the button */
+color: #ffffff; /* White text color */
+padding: 10px 20px; /* Adjust the padding to make the button more visually appealing */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the button */
+cursor: pointer; /* Change the cursor to indicate it's clickable */
+}
+
+.search .btn-primary:hover {
+background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.custom-card-container {
+display: flex;
+}
+
+.cardSet{
+    margin-bottom: 10%;
+}
+.card{
+    margin: 11% 11%;
+}
+.btnCard{
+    background-color: #337a0a;
+    margin-top: 10%;
+    border: none;
+    border-radius:10% ;
+}
+.btnCard svg {
+    fill: white;
+  }
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+#cardOne{
+    background-color: #FFF501;
+}
+#cardTwo{
+    background-color: #7b0ad8;
+}
+#cardThree{
+    background-color: #729978;
+}
+#cardFour{
+    background-color: #F87D25;
+}
+#cardFive{
+    background-color: #FF4747;
+}
+#cardSix{
+    background-color: #66dd0b;
+}
+.seeMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+.centeredBtn {
+background-color: #0c0D36;
+color: white;
+border: none;
+padding: 16px 20px;
+border-radius: 5px;
+font-size: 20px; /* You can change the font size as desired */
+cursor: pointer;
+margin-bottom: 8%;
+}

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .samp{
+            font-weight: bold;
+            color: blueviolet;
+        }
+        .custom-card-container {
+             display: flex;
+        }
+        .card{
+            margin: 10% 10%;
+        }
+        .btnCard{
+            background-color: orangered!important;
+            color:white!important;
+            border: 2px solid orangered!important;
+            border-radius: 2px!important; ;
+        } 
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        #card{
+            background-color: #0c0D36;
+            color: white;
+        }
+        h5{
+            text-align: center;
+        }
+        .language{
+            font-weight: bold;
+            color:orangered;  
+        }
+        .languageName h2{
+            background-color: #1f1e20c0;
+            padding: 20px;
+            color: white;
+        }
+        .img{
+            display: block; 
+            margin: 0 auto;
+        }
+        #subCard{
+            border: 2px solid orangered;
+        }
+        .readBtn{
+            background-color: orangered!important;
+            color: white!important;
+            border: 3px solid orangered!important;
+            border-radius: 10px!important; 
+        }
+        .seeMore {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10px; 
+        }
+        .centeredBtn {
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 3px 9px;
+            border-radius: 5px;
+            font-size: 15px; 
+            cursor: pointer;
+            margin-bottom: 5%;
+        }
+        .nextPage {
+            display: flex;
+            justify-content: center;
+        }
+        .pagination .page-item.active .page-link {
+        background-color: orangered;
+        border-color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <div class="py-5 text-center">
+        <h1><samp class="samp">"Unlock the World of Knowlege:</samp> Your Gateway to Endless Books!"</h1>
+    </div>
+    </section>
+
+    <section class="cardSet">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Mathematics</h5>
+                <br>
+                <div class="button-container">
+                <button class="btnCard">See more...</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Science</h5>
+                <br>
+                <div class="button-container">
+                <button class="btnCard">See more...</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Languages</h5>
+                <br>
+                <div class="button-container">
+                <button class="btnCard">See more...</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Computer Science</h5>
+                <br>
+                <div class="button-container">
+                  <button class="btnCard">See more...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Social Studies</h5>
+                <br>
+                <div class="button-container">
+                  <button class="btnCard">See more...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Arts and Music</h5>
+                <br>
+                <div class="button-container">
+                  <button class="btnCard">See more...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">History</h5>
+                <br>
+                <div class="button-container">
+                <button class="btnCard">See more...</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Geography</h5>
+                <br>
+                <div class="button-container">
+                <button class="btnCard">See more...</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Physical Education and Health</h5>
+                <div class="button-container">
+                  <button class="btnCard">See more...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="card">
+              <div class="card-body">
+                <h5 class="card-title">Business and Entrepreneurship</h5>
+                <div class="button-container">
+                  <button class="btnCard">See more...</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="languageName">
+        <div class="py-5 text-center">
+            <h2><samp class="language">Mathematics:</samp>Includemtopics like arithmetic,algebra,geometry,calculus,statics and more.</h2>
+        </div>
+      </section>
+
+      <section class="cardSet">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="seeMore">
+        <button class="centeredBtn">See more...</button>
+      </section>
+
+      <section class="languageName">
+        <div class="py-5 text-center">
+            <h2><samp class="language">Science:</samp>Cover subjects such as biology,chemistry,physics,astronomy,environmental science etc.</h2>
+        </div>
+      </section>
+
+      <section class="cardSet">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="seeMore">
+        <button class="centeredBtn">See more....</button>
+      </section>
+     
+      <section class="nextPage">
+        <nav aria-label="...">
+            <ul class="pagination pagination-sm">
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">1</span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
+          </nav>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        .card{
+            margin: 10% 10%;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        h5{
+            text-align: center;
+        }
+        .language{
+            font-weight: bold;
+            color:orangered;  
+        }
+        .languageName h2{
+            background-color: #1f1e20c0;
+            padding: 20px;
+            color: white;
+        }
+        .img{
+            display: block; 
+            margin: 0 auto;
+        }
+        #subCard{
+            border: 2px solid orangered;
+        }
+        .readBtn{
+            background-color: orangered!important;
+            color: white!important;
+            border: 3px solid orangered!important;
+            border-radius: 10px!important; 
+        }
+        .seeMore {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10px; 
+        }
+        .centeredBtn {
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 3px 9px;
+            border-radius: 5px;
+            font-size: 15px; 
+            cursor: pointer;
+            margin-bottom: 5%;
+        }
+        .nextPage {
+            display: flex;
+            justify-content: center;
+        }
+        .pagination .page-item.active .page-link {
+            background-color: orangered;
+            border-color: orangered;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="languageName">
+        <div class="py-5 text-center">
+            <h2><samp class="language">Computer Science:</samp>Introduce programming languages, web development, software engineering and digital literacy.</h2>
+        </div>
+      </section>
+
+      <section class="cardSet">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="seeMore">
+        <button class="centeredBtn">See more...</button>
+      </section>
+
+      <section class="languageName">
+        <div class="py-5 text-center">
+            <h2><samp class="language">Arts and Music:</samp>Provide resources for drawing, painting, music theory and musical instrument tutorials.</h2>
+        </div>
+      </section>
+
+      <section class="cardSet">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="seeMore">
+        <button class="centeredBtn">See more....</button>
+      </section>
+      <br>
+
+      <section class="languageName">
+        <div class="py-5 text-center">
+            <h2><samp class="language">Physical Education and health:</samp>Include fitness tips, exercises and sports-related content.</h2>
+        </div>
+      </section>
+
+      <section class="cardSet">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="seeMore">
+        <button class="centeredBtn">See more...</button>
+      </section>
+
+      <section class="languageName">
+        <div class="py-5 text-center">
+            <h2><samp class="language">Business and Entrepreneurship:</samp>Offer lessons on entrepreneurship, marketing, finance and management.</h2>
+        </div>
+      </section>
+
+      <section class="cardSet">
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="row row-cols-1 row-cols-md-5 g-1">
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                <button class="readBtn">Read</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-10" id="subCard">
+              <div class="card-body">
+                <img class="img" src="images/61WKd0DH+bL._AC_UL210_SR210,210_.jpg" alt="">
+                <br>
+                <h5 class="card-title">Subject</h5>
+                <br>
+                <div class="button-container">
+                  <button class="readBtn">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section class="seeMore">
+        <button class="centeredBtn">See more....</button>
+      </section>
+      <br>
+      <section class="nextPage">
+        <nav aria-label="...">
+            <ul class="pagination pagination-sm">
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">3</span>
+              </li>
+            </ul>
+          </nav>
+      </section>
+</body>
+</html>

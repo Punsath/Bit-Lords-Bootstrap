@@ -1,0 +1,58 @@
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    background-color: #0c0D36;
+}
+.bi-facebook{
+    fill: white; /* Set the fill color to white */
+}
+.bi-twitter{
+    fill: white;
+}
+.bi-instagram{
+    fill: white;
+}
+.footer{
+    background-color: #0c0D36;
+}
+.bi{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+.nav-link{
+    color: white!important;
+    font-weight: bold!important;
+}
+.row h5{
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.signUp{
+    background-color: #0c0D36!important;
+    color: orangered!important;
+    border: 2px solid orangered!important;
+    border-radius: 2px!important;
+    width: 200px; 
+    height: 50px; 
+}
+.signInbtn{
+    background-color: white!important;
+    color: orangered!important;
+    border: 2px solid orangered!important;
+    border-radius: 2px!important;
+    width: 200px; 
+    height: 50px; 
+}
+.image{
+    width: 425px;
+    height: 460px;
+}
+.pageName{
+    background-color: #0c0D36;
+    align-items: center;
+}

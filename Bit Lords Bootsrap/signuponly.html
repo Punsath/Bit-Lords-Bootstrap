@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+    .input-group {
+    display: flex;
+    justify-content: center;
+    }
+.signUp{
+    background-color: #0c0D36!important;
+    color: orangered!important;
+    border: 2px solid orangered!important;
+    border-radius: 2px!important;
+    width: 200px; 
+    height: 50px; 
+    }
+.signInbtn{
+    background-color: white!important;
+    color: orangered!important;
+    border: 2px solid orangered!important;
+    border-radius: 2px!important;
+    width: 200px; 
+    height: 50px; 
+    }
+.image{
+    width: 340px;
+    height: 380px;
+    }
+.pageName{
+    background-color: #0c0D36;
+    align-items: center;
+    }
+.btn {
+  display: flex;
+  justify-content: center;
+    }
+.btn button {
+  margin: 10px;
+    }
+</style>
+
+</head>
+<body>
+    <section class="login">
+    <div class="container">
+          <div class="py-5 text-center">
+            <div class="pageName">
+            <img class="d-block mx-auto mb-4" src="images/Screenshot 2023-07-19 175700.png" alt="" width="300" height="100">
+            </div>
+            <h2>Find Your Account</h2>
+          </div>
+      
+          <div class="row g-5">
+            <div class="col-md-5 col-lg-3 order-md-last">
+            <img class="image" src="images/HD-wallpaper-laptop-book-aesthetics.jpg" alt="">
+            </div>
+            <div class="col-md-7 col-lg-8">
+              <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+               
+                  <div class="col-12">
+                    <label for="email" class="form-label">Please enter your email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email address">
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+      
+    
+                </div>
+                <br>
+                <br>
+                <div class="btn">
+                <button class="signInbtn w-80 btn-lg" type="submit">Cancel</button>
+                <button class="signUp w-80  btn-lg" type="submit">Search</button>  
+                </div>
+              </form>
+            </div>
+          </div>
+        <br>
+        <br>
+      </section>
